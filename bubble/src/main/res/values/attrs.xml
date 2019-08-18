@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="bubble">
+        <attr name="bubbleColor" format="color" />
+        <attr name="bubbleRadius" format="float" />
+        <attr name="arrowOrientation">
+            <enum name="left"   value="0"/>
+            <enum name="top"    value="1"/>
+            <enum name="right"  value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+        <attr name="arrowWidth" format="dimension" />
+        <attr name="arrowLength" format="dimension" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowRadius" format="dimension"/>
+        <attr name="shadowOffsetX" format="dimension"/>
+        <attr name="shadowOffsetY" format="dimension"/>
+    </declare-styleable>
+
+</resources>

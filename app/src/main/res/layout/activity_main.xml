@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context=".MainActivity">
+
+    <TextView android:id="@+id/left"
+              android:layout_width="100dp"
+              android:layout_height="50dp"
+              android:layout_marginTop="50dp"
+              android:text="左边"
+              android:gravity="center"
+              android:layout_centerInParent="true"
+              android:background="#ff2200"/>
+
+    <TextView android:id="@+id/top"
+              android:layout_width="100dp"
+              android:layout_height="50dp"
+              android:layout_marginTop="50dp"
+              android:text="上面"
+              android:gravity="center"
+              android:layout_centerInParent="true"
+              android:background="#ff2200"/>
+
+    <TextView android:id="@+id/right"
+              android:layout_width="100dp"
+              android:layout_height="50dp"
+              android:layout_marginTop="50dp"
+              android:text="右边"
+              android:gravity="center"
+              android:layout_centerInParent="true"
+              android:background="#ff2200"/>
+
+    <TextView android:id="@+id/bottom"
+              android:layout_width="100dp"
+              android:layout_height="50dp"
+              android:layout_marginTop="50dp"
+              android:text="下面"
+              android:gravity="center"
+              android:layout_centerInParent="true"
+              android:background="#ff2200"/>
+
+</LinearLayout>
